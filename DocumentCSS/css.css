@@ -1,0 +1,122 @@
+/*estilos generales*/
+nav ul	{
+	list-style: none;
+	padding: 0;
+}
+nav a{
+	text-decoration: none;
+}
+/*nav li ul{
+	display: none;
+}
+nav li:hover > ul{
+	display: block;
+}*/
+nav li{
+	line-height: 3rem;
+	position: relative;
+}
+nav li ul{
+	position: absolute;
+}
+nav a{
+	color: #ddd;
+	display: block;
+	padding: 0 2.5rem;
+	text-decoration: none;
+	transition: .5s;
+}
+nav a:hover{
+	background: rgba(0,0,0,.5);
+}
+/*Primer nivel*/
+nav > ul{
+	background: #333;
+	display: table;
+	width: 100%;
+}
+nav > ul > li {
+	float: left;
+}
+/*segundo nivel*/
+nav li li{
+	background: #222;
+	max-height: 0;
+	transition: all .4s;
+	overflow: hidden;
+	width: 200px;
+}
+nav li:hover > ul > li{
+	max-height: 500px;
+	overflow: visible;
+}
+nav > ul > li > ul{
+	top: 100%;
+}
+/*tercer nivel*/
+nav ul ul ul{
+	left: 100%;
+	top 0;
+}
+
+body{
+	background: #7AC9E3;
+}
+
+/*nav .facebook{
+
+	background: #22B8E8;
+	width: 200px;
+	font-size: 30px;
+	color:white;
+	text-decoration: none;
+	font-family: Arial;
+	padding: 3px 3px 3px 3px;
+	border: 1px dotted#000;
+	display: block;
+	text-align: center;
+	border-radius: 150px;
+
+}*/
+section article h2{
+
+	position:relative;
+	top 0;
+	bottom: 30px;
+	left: 810px;
+	font-size: 40px;
+	font-family: times;
+
+}
+section article h3{
+
+	position:relative;
+	top 0;
+	bottom: 30px;
+	left: 600px;
+	font-size: 40px;
+	font-family: times;
+}
+section article p{
+	position:relative;
+	top 0;
+	bottom: 80px;
+	left: 600px;
+	font-size: 20px;
+	font-family: times;
+}
+div img	{
+	width: 300px;
+
+	margin: 30px 20px 10px 50rem;
+	border-radius: 700px;
+}
+/*nav a:hover{
+	background: #0D6F90;
+	margin: 30px 40px 30px 880px;
+}*/
+footer h3,h4{
+	margin: 5px 5px 5px 815px;
+	font-size: 30px;
+	font-family: times;
+}
