@@ -15,6 +15,8 @@ nav li:hover > ul{
 nav li{
 	line-height: 3rem;
 	position: relative;
+	width: 180px;
+	text-align: center;
 }
 nav li ul{
 	position: absolute;
@@ -28,6 +30,7 @@ nav a{
 }
 nav a:hover{
 	background: rgba(0,0,0,.5);
+	font-size: 20px;
 }
 /*Primer nivel*/
 nav > ul{
@@ -44,7 +47,7 @@ nav li li{
 	max-height: 0;
 	transition: all .4s;
 	overflow: hidden;
-	width: 200px;
+	width: 180px;
 }
 nav li:hover > ul > li{
 	max-height: 500px;
@@ -56,7 +59,7 @@ nav > ul > li > ul{
 /*tercer nivel*/
 nav ul ul ul{
 	left: 100%;
-	top 0;
+	top: 10px;
 }
 
 body{
@@ -83,9 +86,9 @@ section article h2{
 	position:relative;
 	top 0;
 	bottom: 30px;
-	left: 810px;
+	left: 800px;
 	font-size: 40px;
-	font-family: times;
+	font-family: Arial;
 
 }
 section article h3{
@@ -93,23 +96,43 @@ section article h3{
 	position:relative;
 	top 0;
 	bottom: 30px;
-	left: 600px;
+	left: 550px;
 	font-size: 40px;
-	font-family: times;
+	font-family: Arial;
 }
 section article p{
 	position:relative;
 	top 0;
 	bottom: 80px;
-	left: 600px;
+	left: 550px;
 	font-size: 20px;
-	font-family: times;
+	font-family: Arial;
 }
-div img	{
+header div img	{
 	width: 300px;
-
 	margin: 30px 20px 10px 50rem;
 	border-radius: 700px;
+}
+aside .facebook img{  
+	width: 80px;
+	position: relative;
+	left: 590px;
+	bottom: 40px;
+	display: block;
+}
+aside .instagram img{   
+	width: 80px;
+	position: relative;
+	left: 1300px;
+	bottom: 115px;
+	display: block;
+}
+aside .whatsapp img{  
+	width: 80px;
+	position: relative;
+	bottom: 200px;
+	left: 930px;
+	display: block;
 }
 /*nav a:hover{
 	background: #0D6F90;
