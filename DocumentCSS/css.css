@@ -26,7 +26,7 @@ nav a{
 	display: block;
 	padding: 0 2.5rem;
 	text-decoration: none;
-	transition: .5s;
+	transition: .3s;
 }
 nav a:hover{
 	background: rgba(0,0,0,.5);
@@ -45,7 +45,7 @@ nav > ul > li {
 nav li li{
 	background: #222;
 	max-height: 0;
-	transition: all .4s;
+	transition: all .3s;
 	overflow: hidden;
 	width: 180px;
 }
@@ -117,22 +117,40 @@ aside .facebook img{
 	width: 80px;
 	position: relative;
 	left: 590px;
-	bottom: 40px;
+	bottom: 60px;
 	display: block;
+	
 }
 aside .instagram img{   
 	width: 80px;
 	position: relative;
 	left: 1300px;
-	bottom: 115px;
+	bottom: 140px;
 	display: block;
+	
+}
+aside li {
+	font-size: 5px;
+	list-style: none;
 }
 aside .whatsapp img{  
 	width: 80px;
 	position: relative;
-	bottom: 200px;
-	left: 930px;
+	bottom: 220px;
+	left: 935px;
 	display: block;
+}
+aside .facebook img:hover{
+	width: 100px;
+	transition: .5s
+}
+aside .instagram img:hover{
+	width: 100px;
+	transition: .5s
+}
+aside .whatsapp img:hover{
+	width: 100px;
+	transition: .5s
 }
 /*nav a:hover{
 	background: #0D6F90;
