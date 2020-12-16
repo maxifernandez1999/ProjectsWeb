@@ -85,17 +85,16 @@ section article h2{
 
 	position:relative;
 	top 0;
-	bottom: 30px;
+	bottom: 35px;
 	left: 800px;
 	font-size: 40px;
 	font-family: Arial;
 
 }
 section article h3{
-
 	position:relative;
 	top 0;
-	bottom: 30px;
+	bottom: 60px;
 	left: 550px;
 	font-size: 40px;
 	font-family: Arial;
@@ -113,6 +112,9 @@ header div img	{
 	margin: 30px 20px 10px 50rem;
 	border-radius: 700px;
 }
+aside div{
+	width: 600px;
+}
 aside .facebook img{  
 	width: 80px;
 	position: relative;
@@ -129,7 +131,29 @@ aside .instagram img{
 	display: block;
 	
 }
+.imagenLavarropas{
+	display: none;
+	width: 400px;
+	position: relative;
+	left: 550px;
+	bottom: 150px;
+}
+
+.parrafo{
+	display: none;
+	font-size: 20px;
+	font-family: Arial;
+	width: 200px;
+	position: relative;
+	left:1000px;
+	bottom: 720px;
+	line-height: 80px;
+}
+.ver{
+	display: block;
+}
 aside li {
+	width: 50px;
 	font-size: 5px;
 	list-style: none;
 }
@@ -157,7 +181,10 @@ aside .whatsapp img:hover{
 	margin: 30px 40px 30px 880px;
 }*/
 footer h3,h4{
-	margin: 5px 5px 5px 815px;
+	position: relative;
 	font-size: 30px;
+	left: 680px;
+	bottom: 120px;
 	font-family: times;
 }
+
