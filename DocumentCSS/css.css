@@ -112,9 +112,6 @@ header div img	{
 	margin: 30px 20px 10px 50rem;
 	border-radius: 700px;
 }
-aside div{
-	width: 600px;
-}
 aside .facebook img{  
 	width: 80px;
 	position: relative;
@@ -131,27 +128,64 @@ aside .instagram img{
 	display: block;
 	
 }
-.imagenLavarropas{
+.claseContenedor{
 	display: none;
-	width: 400px;
+}
+/*div contenedor primer imagen*/
+.lavarropas{
+	display: block;
+	width: 800px;
+	/*background para probar*/
 	position: relative;
-	left: 550px;
+	left: 100px;
 	bottom: 150px;
 }
-
+.imagenLavarropas{
+	display: inline-block;
+	width: 400px;
+}
+.imagenLavarropas:hover{
+	width: 450px;
+	transition: .5s;
+}
 .parrafo{
-	display: none;
-	font-size: 20px;
+	display: inline-block;
+	font-size: 30px;
+	margin: 0px 20px 20px 20px;
+	line-height: 60px;
 	font-family: Arial;
 	width: 200px;
+	position: absolute;
+}
+.aire{
+	display:block;
+	width: 800px;
 	position: relative;
-	left:1000px;
-	bottom: 720px;
-	line-height: 80px;
+	left: 800px;
+	bottom: 680px;
+
+}
+.imagenAire{
+	display: inline-block;
+	width: 500px;
+}
+.imagenAire:hover{
+	width: 550px;
+	transition: .5s;
+}
+.parrafoAire{
+	display: inline-block;
+	font-size: 30px;
+	margin: 0px 20px 20px 20px;
+	line-height: 60px;
+	font-family: Arial;
+	width: 200px;
+	position: absolute;
 }
 .ver{
-	display: block;
+	display: inline-block;
 }
+/*div*/
 aside li {
 	width: 50px;
 	font-size: 5px;
