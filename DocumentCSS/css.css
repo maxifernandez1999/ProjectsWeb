@@ -176,61 +176,48 @@ footer h4{
 }
 
 
-
 .claseContenedor{
 	display: none;
+	/*background: green;*/
+	position: relative;
+	height: 300px;
+	width: 100%;
+	top: 100px;
 }
 /*div contenedor primer imagen*/
 .lavarropas{
 	display: block;
-	width: 800px;
-	/*background para probar*/
-	position: relative;
-	left: 100px;
-	bottom: 150px;
+	width: 200px;
+	height: 200px;
+	background: black;
+	position: absolute;
+	
 }
 .imagenLavarropas{
 	display: inline-block;
-	width: 400px;
-}
-.imagenLavarropas:hover{
-	width: 450px;
-	transition: .5s;
-}
-.parrafo{
-	display: inline-block;
-	font-size: 30px;
-	margin: 0px 20px 20px 20px;
-	line-height: 60px;
-	font-family: Arial;
 	width: 200px;
-	position: absolute;
 }
+/*.imagenLavarropas:hover{
+	width: 200px;
+	transition: .5s;
+}*/
 .aire{
-	display:block;
-	width: 800px;
-	position: relative;
-	left: 800px;
-	bottom: 680px;
+	display: block;
+	width: 200px;
+	height: 200px;
+	background: black;
+	position: absolute;
+	left: 250px;
 
 }
 .imagenAire{
 	display: inline-block;
-	width: 500px;
+	width: 350px;
 }
-.imagenAire:hover{
+/*.imagenAire:hover{
 	width: 550px;
 	transition: .5s;
-}
-.parrafoAire{
-	display: inline-block;
-	font-size: 30px;
-	margin: 0px 20px 20px 20px;
-	line-height: 60px;
-	font-family: Arial;
-	width: 200px;
-	position: absolute;
-}
+}*/
 .ver{
 	display: inline-block;
 }
